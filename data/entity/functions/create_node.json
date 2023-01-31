@@ -1,0 +1,13 @@
+
+{
+	"version": "2.0",
+	"name": "create_node",
+	"example_code": [ "" ],
+	"example_comment": "",
+    "summary": "",
+    "description": [
+		"Creates a new <%= type 'SpriteNode' %>, parented to the <%= doc_class_name %>."
+	],
+	"return_value_type": "<%= type 'SpriteNode' %>",
+	"return_value_desc": "The newly-created <%= type 'SpriteNode' %>."
+}

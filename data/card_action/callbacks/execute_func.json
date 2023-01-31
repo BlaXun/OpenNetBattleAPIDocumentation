@@ -1,0 +1,45 @@
+{
+    "version": "2.0",
+    "name": "execute_func",
+    "example_code": [
+        ""
+    ],
+    "example_comment":
+        "",
+    "summary": "",
+    "description":
+    [
+        "This function is executed when the <%= type 'CardAction' %> is invoked by a <%= type 'Character' %>."
+    ],
+    "parameters":
+    [
+        {
+            "name": "action",
+            "desc": "",
+            "type": "<%= type 'CardAction' %>",
+            "optional": false
+        },
+        {
+            "name": "user",
+            "desc": "",
+            "type": "<%= type 'Character' %>",
+            "optional": false
+        }
+    ],
+    "return_value_type": "",
+    "return_value_desc": "",
+    "footnotes":
+    [
+        {
+            "type": "",
+            "text": [
+                ""
+            ],
+            "code": [
+
+            ],
+            "comment":
+                ""
+        }
+    ]
+}

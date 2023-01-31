@@ -1,0 +1,31 @@
+{
+	"name": "ScriptedPlayer",
+	"lua_class_name": "Player",
+	"summary": "",
+	"description": [ "" ], 
+	"variable_text": "scripted_player",
+	"subdirectory": "entity",
+	"superclass": "Entity",
+	"conditionals":
+	[
+		"from",
+		"get_attack_level",
+		"set_attack_level",
+		"get_charge_level",
+		"set_charge_level",
+		"mod_max_health",
+		"get_max_health_mod",
+		"set_fully_charged_color",
+		"set_charge_position",
+		"slide_when_moving",
+		"create_form",
+		"create_sync_node",
+		"remove_sync_node",
+		"update_func",
+		"battle_start_func",
+		"battle_end_func",		
+		"normal_attack_func",
+		"charged_attack_func",
+		"special_attack_func"
+	]
+}

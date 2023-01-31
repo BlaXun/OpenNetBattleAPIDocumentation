@@ -1,0 +1,16 @@
+
+{
+	"version": "2.0",
+	"name": "get_team",
+	"example_code": [ 
+		"local tile\t\t-- example Tile",
+		"local tile_team\t= tile:get_team()"
+	 ],
+	"example_comment": "",
+    "summary": "",
+    "description": [ 
+		"Returns the <%= type 'Team'%> that currently owns this <%= type 'Tile' %>"
+	 ],
+	"return_value_type": "<%= type 'Team'%>",
+	"return_value_desc": ""
+}

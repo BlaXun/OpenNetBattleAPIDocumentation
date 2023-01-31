@@ -1,0 +1,29 @@
+
+{
+	"version": "2.0",
+	"name": "is_reserved",
+	"example_code": [ 
+		"local tile\t\t-- example Tile",
+		"local ignored_characters\t-- list of Entity IDs to ignore",
+		"",
+		"local reserving_this_tile = tile:is_reserved( ignored_characters )"
+	 ],
+	"example_comment": "",
+    "summary": "",
+    "description": [ 
+		"Queries if the <%= type 'Tile' %> is _reserved_ by a <%= type 'Entity' %>.",
+		"&emsp;If a list of **unique IDs** is provided, any <%= type 'Entity' %> with a **unique ID** contained in the list will *not* be included in the calculation.",
+		"",
+		"Returns `true` if the <%= type 'Tile' %> is marked as _reserved_ by any <%= type 'Entity' %> not on the provided list.",
+		"&emsp;Otherwise, returns `false`."
+	 ],
+	"parameters": [
+		{
+			"name": "excluded_characters",
+			"desc": "A list of <%= type 'Character' %> objects to ignore.",
+			"type": "list&lt;Character&gt;"
+		}
+	],
+	"return_value_type": "boolean",
+	"return_value_desc": ""
+}

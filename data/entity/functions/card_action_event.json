@@ -1,0 +1,21 @@
+
+{
+	"version": "2.0",
+	"name": "card_action_event",
+	"example_code": [ "" ],
+	"example_comment": "",
+    "summary": "",
+    "description": [ "" ],
+	"parameters": [
+		{
+			"name": "card_action",
+			"desc": "",
+			"type": "<%= type 'CardAction' %>"
+		},
+		{
+			"name": "action_order",
+			"desc": "",
+			"type": "<%= type 'ActionOrder' %>"
+		}
+	]
+}

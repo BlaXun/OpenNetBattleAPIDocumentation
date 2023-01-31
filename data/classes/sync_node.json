@@ -1,0 +1,12 @@
+{
+	"name": "SyncNode",
+	"summary": "",
+	"description": [ "" ], 
+	"variable_text": "sync_node",
+	"subdirectory": "sync_node",
+    "functions":
+    [
+        { "name": "sprite" },
+        { "name": "get_animation" }
+    ]
+}

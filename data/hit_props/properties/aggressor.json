@@ -1,0 +1,30 @@
+{
+    "version": "2.0",
+    "name": "aggressor",
+    "static": false,
+    "example_code": [
+        ""
+    ],
+    "example_comment":
+        "",
+    "summary": "",
+    "description":
+    [
+        "The **unique ID** of the <%= type 'Entity' %> that spawned this."
+    ],
+    "object_type": "number",
+    "footnotes":
+    [
+        {
+            "type": "",
+            "text": [
+                ""
+            ],
+            "code": [
+
+            ],
+            "comment":
+                ""
+        }
+    ]
+}

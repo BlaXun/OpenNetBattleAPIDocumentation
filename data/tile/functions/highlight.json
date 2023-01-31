@@ -1,0 +1,21 @@
+
+{
+	"version": "2.0",
+	"name": "highlight",
+	"example_code": [ 
+		"local tile\t\t-- example Tile",
+		"tile:highlight( Highlight.Solid )"
+	 ],
+	"example_comment": "",
+    "summary": "",
+    "description": [ 
+		"Causes the <%= type 'Tile' %> to be highlighted in a specific manner."
+	],
+	"parameters": [
+		{
+			"name": "highlight_mode",
+			"desc": "",
+			"type": "<%= type 'Highlight' %>"
+		}
+	]
+}

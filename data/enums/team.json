@@ -1,0 +1,18 @@
+{
+    "version": "2.0",
+    "name": "Team",
+    "summary": "",
+    "description": [ "" ],
+    "items":
+    [
+        {
+            "name":     "Red"
+        },
+        {
+            "name":     "Blue"
+        },
+        {
+            "name":     "Other"
+        }
+    ] 
+}

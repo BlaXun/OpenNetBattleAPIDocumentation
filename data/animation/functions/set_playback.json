@@ -1,0 +1,20 @@
+
+{
+	"version": "2.0",
+	"name": "set_playback",
+	"example_code": [ 
+        "" 
+    ],
+	"example_comment": "",
+    "summary": "",
+    "description": [ 
+        "" 
+    ],
+	"parameters": [
+		{
+			"name": "playback_mode",
+			"desc": "",
+			"type": "<%= type 'Playback' %>"
+		}
+	]
+}

@@ -1,0 +1,21 @@
+{
+    "version": "2.0",
+    "name": "DefenseOrder",
+    "summary": "",
+    "description": [ "" ],
+    "items":
+    [
+        {
+            "name":     "Always",
+            "meaning":  [
+                ""
+            ]
+        },
+        {
+            "name":     "CollisionOnly",
+            "meaning":  [
+                ""
+            ]
+        }
+    ] 
+}

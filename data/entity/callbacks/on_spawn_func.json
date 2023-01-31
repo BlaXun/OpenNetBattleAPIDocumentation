@@ -1,0 +1,29 @@
+
+{
+	"version": "2.0",
+	
+	"name": "on_spawn_func",
+	"example_code":
+	[
+		""
+	],
+    "summary": "",
+    "description":
+	[ 
+		"This function will be called when the <%= doc_class_name %> initially spawns in.",
+		"&emsp;<i>Additionally, `Character` objects will receive a second `Tile` argument</i>."
+	],
+	"parameters": [
+		{
+			"name": "actor",
+			"desc": "The <%= doc_class_name %> being spawned in.",
+			"type": "<%= doc_class_name %>"
+		},
+		{
+			"name": "tile",
+			"desc": "The <%= type 'Tile' %> it is being spawned on (currently for <%= type 'Character' %> objects only).",
+			"type": "<%= type 'Tile' %>"
+		}
+	],
+	"return_value_type": "nil"
+}

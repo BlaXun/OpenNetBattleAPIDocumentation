@@ -1,0 +1,34 @@
+
+{
+	"version": "2.0",
+	"name": "join",
+	"example_code":
+	[
+		"local comp1 = Direction.Up",
+		"local comp2 = Direction.Left",
+		"",
+        "local joined = Direction.join( comp1, comp2 )",
+        "local also_joined = comp1.join( comp2 )"
+	],
+	"example_comment": "The above snippet will return `Direction.UpLeft`.",
+    "summary": "",
+    "description": 
+	[
+		"This returns the closest normalized <%= type 'Direction' %> to the result of adding the two component <%= type 'Direction' %>s like vectors.",
+		"&emsp;e.g. Adding `Up` to `UpLeft`, would produce `UpLeft`."
+	],
+	"parameters": [
+		{
+			"name": "input_a",
+			"desc": "",
+			"type": "<%= type 'Direction' %>"
+		},
+		{
+			"name": "input_b",
+			"desc": "",
+			"type": "<%= type 'Direction' %>"
+		}
+	],
+	"return_value_type": "<%= type 'Direction' %>",
+	"return_value_desc": ""
+}

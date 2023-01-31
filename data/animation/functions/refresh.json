@@ -1,0 +1,20 @@
+
+{
+	"version": "2.0",
+	"name": "refresh",
+	"example_code": [ 
+        "" 
+    ],
+	"example_comment": "",
+    "summary": "",
+    "description": [ 
+        "Refreshes the target <%= type 'SpriteNode' %>." 
+    ],
+	"parameters": [
+		{
+			"name": "sprite_node",
+			"desc": "The <%= type 'SpriteNode' %> you want to refresh.",
+			"type": "<%= type 'SpriteNode' %>"
+		}
+	]
+}

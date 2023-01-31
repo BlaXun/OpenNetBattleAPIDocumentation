@@ -1,0 +1,38 @@
+{
+	"type": "object",
+	"properties":
+	{
+		"version":			{ "type": "string" },
+		"name":				{ "type": "string" },
+		"subdirectory" :	{ "type": "string" },
+		"summary": 			{ "type": "string" },
+    	"description":		{ "type": "array", "items": { "type": "string" } },
+		"functions":
+		{ 
+			"type": "array",
+			"items":
+			{ 
+				"type": "object",
+				"properties": { "name": { "type": "string" } }
+			}
+		},
+		"items":
+		{
+			"type": "array",
+			"items":
+			{
+				"type": "object",
+				"properties":
+				{
+					"name":		{ "type": "string" },
+					"meaning":	{ "type": "array", "items": { "type": "string" } }
+				},
+				"required":
+				[
+					"name"
+				]
+			}
+		}
+	},
+	"additionalProperties": false
+}

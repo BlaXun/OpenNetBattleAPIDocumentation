@@ -1,0 +1,25 @@
+
+{
+	"version": "2.0",
+	"name": "attack_entities",
+	"example_code":
+	[
+		"local tile\t\t-- example Tile",
+		"local spell\t-- example Spell",
+		"",
+		"tile:attack_entities( spell )"
+	],
+	"example_comment": "",
+    "summary": "",
+    "description":
+	[
+		"Queues up a <%= type 'Spell' %> to affect any <%= type 'Entity' %> present on this <%= type 'Tile' %>."
+	],
+	"parameters": [
+		{
+			"name": "aggressor",
+			"desc": "",
+			"type": "<%= type 'Entity' %>"
+		}
+	]
+}

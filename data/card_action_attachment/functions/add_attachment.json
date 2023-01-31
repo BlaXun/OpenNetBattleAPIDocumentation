@@ -1,0 +1,40 @@
+{
+    "version": "2.0",
+    "name": "add_attachment",
+    "static": false,
+    "example_code": [
+        ""
+    ],
+    "example_comment":
+        "",
+    "summary": "",
+    "description":
+    [
+        "Creates another <%= type 'CardActionAttachment' %> and adds it to this as a child node."
+    ],
+    "parameters":
+    [
+        {
+            "name": "attachment_point",
+            "desc": "",
+            "type": "string",
+            "optional": false
+        }
+    ],
+    "return_value_type": "<%= type 'CardActionAttachment' %>",
+    "return_value_desc": "The newly-created <%= type 'CardActionAttachment' %>.",
+    "footnotes":
+    [
+        {
+            "type": "",
+            "text": [
+                ""
+            ],
+            "code": [
+
+            ],
+            "comment":
+                ""
+        }
+    ]
+}

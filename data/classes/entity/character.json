@@ -1,0 +1,26 @@
+{
+	"name": "Character",
+	"lua_class_name": "Character",
+	"summary": "",
+	"description": [ "" ], 
+	"variable_text": "character",
+	"subdirectory": "entity",
+	"superclass": "Entity",
+	"conditionals":
+	[
+		"get_rank",
+		"card_action_event",
+		"battle_start_func",
+		"on_spawn_func",
+		"battle_end_func",
+		"can_move_to_func",
+		"attack_func",
+		"collision_func",
+		"on_countered",
+		"update_func",
+		"delete_func",
+		"normal_attack_func",
+		"charged_attack_func",
+		"special_attack_func"
+	]
+}

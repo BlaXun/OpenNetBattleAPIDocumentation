@@ -1,0 +1,22 @@
+{
+	"name": "ScriptedSpell",
+	"lua_class_name": "Spell",
+	"summary": "",
+	"description": [ "" ], 
+	"variable_text": "scripted_spell",
+	"subdirectory": "entity",
+	"superclass": "Entity",
+	"conditionals":
+	[
+		"constructor_team",
+		"set_shadow",
+		"can_move_to_func",
+		"update_func",
+		"delete_func",
+		"attack_func",
+		"collision_func",
+		"on_spawn_func",
+		"battle_start_func",
+		"battle_end_func"
+	]
+}

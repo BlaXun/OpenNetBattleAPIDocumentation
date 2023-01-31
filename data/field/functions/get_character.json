@@ -1,0 +1,24 @@
+
+{
+	"version": "2.0",
+	"name": "get_character",
+	"example_code": [
+		""
+	],
+	"example_comment": "",
+    "summary": "",
+    "description": [
+		"Returns a <%= type 'Character' %> that has the ID `unique_id`.",
+		"If there are *no* <%= type 'Character' %>s with that ID, or the <%= type 'Entity' %> with that `unique_id` is *not* a <%= type 'Character' %>, `nil` is returned instead."
+	],
+	"parameters": [
+		{
+			"name": "unique_id",
+			"desc": "The ID of the <%= type 'Character' %> you want to retrieve.",
+			"type": "number"
+		}
+	],
+	"return_value_type": "<%= type 'Character' %>",
+	"return_value_desc": ""
+}
+

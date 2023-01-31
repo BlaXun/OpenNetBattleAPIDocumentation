@@ -1,0 +1,34 @@
+
+{
+	"version": "2.0",
+	"name": "pitch_music",
+	"example_code": [
+		""
+	],
+	"example_comment": "",
+    "summary": "",
+    "description": [
+		""
+	],
+	"parameters": [
+		{
+			"name": "pitch",
+			"desc": "The multiplier for the pitch. Higher value = higher pitch. (Default 1.00)",
+			"type": "number"
+		}
+	],
+	"footnotes":
+	[
+		{
+			"type": "",
+			"text": 
+			[
+				""
+			],
+            "code":
+            [
+                ""
+            ]
+		}
+	]
+}

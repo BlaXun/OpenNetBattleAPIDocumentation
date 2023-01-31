@@ -1,0 +1,33 @@
+{
+    "version": "2.0",
+    "name": "signal_defense_was_pierced",
+    "static": false,
+    "example_code": [
+        ""
+    ],
+    "example_comment":
+        "",
+    "summary": "Stops a `DefenseRule` from triggering any extra effects this frame.",
+    "description":
+    [
+        "This function is used for special cases where any triggered effects of a <%= type 'DefenseRule' %> will be turned off for a frame.",
+        "e.g. Breaking through a \"Guard\"-style effect will disable its counterattack for this frame."
+    ],
+    "parameters": [],
+    "return_value_type": "",
+    "return_value_desc": "",
+    "footnotes":
+    [
+        {
+            "type": "",
+            "text": [
+                ""
+            ],
+            "code": [
+
+            ],
+            "comment":
+                ""
+        }
+    ]
+}

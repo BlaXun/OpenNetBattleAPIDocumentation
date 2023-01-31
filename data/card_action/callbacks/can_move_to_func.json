@@ -1,0 +1,49 @@
+{
+    "version": "2.0",
+    "name": "can_move_to_func",
+    "example_code": [
+        ""
+    ],
+    "example_comment":
+        "",
+    "summary": "",
+    "description":
+    [
+        "This function is executed when a <%= type 'Character' %> attempts to move to another <%= type 'Tile' %>.",
+        "",
+        "The `tile` parameter is the <%= type 'Tile' %> it is attempting to move to, and the script can query it like normal.",
+        "&emsp;Return `true` if the <%= type 'Character' %> will be allowed to move to the <%= type 'Tile' %>.",
+        "&emsp;Otherwise, return `false`."
+    ],
+    "parameters":
+    [
+        {
+            "name": "action",
+            "desc": "",
+            "type": "<%= type 'CardAction' %>",
+            "optional": false
+        },
+        {
+            "name": "tile",
+            "desc": "The <%= type 'Tile' %> that the executing <%= type 'Character' %> is trying to move to.",
+            "type": "<%= type 'Tile' %>",
+            "optional": false
+        }
+    ],
+    "return_value_type": "boolean",
+    "return_value_desc": "`true` if the executing <%= type 'Character' %> can move onto the <%= type 'Tile' %>, otherwise `false`.",
+    "footnotes":
+    [
+        {
+            "type": "",
+            "text": [
+                ""
+            ],
+            "code": [
+
+            ],
+            "comment":
+                ""
+        }
+    ]
+}

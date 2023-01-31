@@ -1,0 +1,102 @@
+---
+title: OpenNetBattle Reference
+
+language_tabs: # must be one of https://git.io/vQNgJ
+  - lua
+
+search: false
+
+code_clipboard: true
+
+meta:
+  - name: OpenNetBattle
+    content: Documentation for the OpenNetBattle Engine
+---
+
+<% _type_layout = "includes/layout/print_type_info.md.erb" %>
+
+# Overview
+
+*This page is still a work-in-progress, documenting the various parts of the ONB API.*
+
+# Gamefield Objects
+<p><%= partial "includes/field.md.erb" %></p>
+<p><%= partial "includes/tile.md.erb" %></p>
+
+# Entity Objects
+<p><%= partial "includes/entity.md.erb" %></p>
+
+## Lifetimes
+<%= partial _type_layout, locals: 
+    { file: "/data/enums/lifetimes.json" } %>
+
+# CardAction Objects
+<p><%= partial "includes/cardaction.md.erb" %></p>
+
+# Defense Rules
+
+Every <%= type 'Character' %> has an list of <%= type 'DefenseRule' %>s attached, ordered by priority *(starting at 0, and increasing)*.
+
+When a <%= type 'ScriptedSpell' %> attempts to affect a <%= type 'Character' %>, it checks each <%= type 'DefenseRule' %> attached to that <%= type 'Character' %> in order.<br>
+Each attached <%= type 'DefenseRule' %> will then try to modify the effects of the <%= type 'ScriptedSpell' %>.<br>
+&nbsp;<i>(You can block the damage from the <%= type 'ScriptedSpell' %>, remove status flags, **or even add** them.)</i>
+
+## DefenseRule
+<p><%= partial _type_layout, locals:
+  { file: "/data/classes/defense_rule.json" } %></p>
+
+## DefenseOrder
+<p><%= partial _type_layout, locals:
+  { file: "/data/enums/defense_order.json" } %></p>
+
+## DefenseFrameStateJudge
+<p><%= partial _type_layout, locals:
+  { file: "/data/classes/defense_frame_state_judge.json" } %></p>
+
+# Utility Objects
+
+## Animation
+<p><%= partial _type_layout, locals:
+  { file: "/data/classes/animation.json" } %></p>
+
+## Color
+<p><%= partial _type_layout, locals:
+  { file: "/data/classes/color.json" } %></p>
+
+## MoveEvent
+<p><%= partial _type_layout, locals:
+  { file: "/data/classes/move_event.json" } %></p>
+
+## HitProps
+<p><%= partial _type_layout, locals:
+  { file: "/data/classes/hit_props.json" } %></p>
+
+## Drag
+<p><%= partial _type_layout, locals:
+  { file: "/data/classes/drag.json" } %></p>
+
+## Mob
+<p><%= partial _type_layout, locals:
+  { file: "/data/classes/mob.json" } %></p>
+
+## Spawner
+<p><%= partial _type_layout, locals:
+  { file: "/data/classes/spawner.json" } %></p>
+
+## SpawnMutator
+<p><%= partial _type_layout, locals:
+  { file: "/data/classes/spawn_mutator.json" } %></p>
+
+## MoveEvent
+<p><%= partial _type_layout, locals:
+  { file: "/data/classes/move_event.json" } %></p>
+
+## Vector2
+<p><%= partial _type_layout, locals:
+  { file: "/data/classes/vector2.json" } %></p>
+
+# Metadata Files
+<p><%= partial "includes/metafiles.md.erb" %></p>
+
+# Enums
+<p><%= partial "includes/enums.md.erb" %></p>

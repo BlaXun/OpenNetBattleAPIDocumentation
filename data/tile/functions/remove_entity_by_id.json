@@ -1,0 +1,28 @@
+
+{
+	"version": "2.0",
+	"name": "remove_entity_by_id",
+	"example_code": [ 
+		"local tile\t\t-- example Tile",
+		"local entity_id\t-- example Entity ID",
+		"",		
+		"tile:remove_entity_by_id( entity_id )"
+	 ],
+	"example_comment": "",
+    "summary": "",
+    "description": [ 
+		"Causes the <%= type 'Tile' %> to remove any <%= type 'Entity' %> present on it with a specific **unique ID**.",
+		"",
+		"Returns `true` if an <%= type 'Entity' %> was removed.",
+		"Otherwise, returns `false`."
+	 ],
+	"parameters": [
+		{
+			"name": "entity_id",
+			"desc": "",
+			"type": "number"
+		}
+	],
+	"return_value_type": "boolean",
+	"return_value_desc": "`true` if something was removed from this <%= type 'Tile' %>, otherwise `false`."
+}

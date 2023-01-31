@@ -1,0 +1,27 @@
+{
+    "version": "2.0",
+    "name": "EntityStatus",
+    "summary": "",
+    "description": [ "" ],
+    "items":
+    [
+        {
+            "name":     "Queued",
+            "meaning":  [ 
+                "The <%= type 'Entity' %> was not spawned immediately, and is queued to spawn at the end of frame." 
+            ]
+        },
+        {
+            "name":     "Added",
+            "meaning":  [ 
+                "The <%= type 'Entity' %> was successfully spawned straight away."
+            ]
+        },
+        {
+            "name":     "Failed",
+            "meaning":  [
+                "The <%= type 'Entity' %> could not be spawned."    
+            ]
+        }
+    ] 
+}

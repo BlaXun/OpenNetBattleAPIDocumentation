@@ -1,0 +1,42 @@
+{
+    "version": "2.0",
+    "name": "set_height",
+    "static": false,
+    "example_code": [
+        "local sprite_node\t\t-- example <%= doc_class_name  %>",
+        "",
+        "sprite_node:set_height( 50 )"
+    ],
+    "example_comment":
+         "The above snippet will make the <%= doc_class_name  %> become 50 pixels tall.",
+    "summary": "",
+    "description":
+    [
+        "Scales the <%= doc_class_name  %> vertically so it matches the desired height."
+    ],
+    "parameters":
+    [
+        {
+            "name": "height",
+            "desc": "The new height for the <%= doc_class_name  %>.",
+            "type": "number",
+            "optional": false
+        }
+    ],
+    "return_value_type": "",
+    "return_value_desc": "",
+    "footnotes":
+    [
+        {
+            "type": "",
+            "text": [
+                ""
+            ],
+            "code": [
+
+            ],
+            "comment":
+                ""
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "version": "2.0",
+    "name": "block_impact",
+    "static": false,
+    "example_code": [
+        ""
+    ],
+    "example_comment":
+    "",
+    "summary": "Prevents any contact by the hit, and stops any lower-priority on-contact effects.",
+    "description":
+    [
+        "If this function is called, then the attack will not make contact with a target <%= type 'Entity' %>.",
+        "&nbsp;<i>Lower-priority <%= type 'DefenseRule' %>s can also attempt to block contact, but **cannot** force a move to make contact after it's blocked.</i>"
+    ],
+    "parameters": [],
+    "return_value_type": "",
+    "return_value_desc": "",
+    "footnotes":
+    [
+        {
+            "type": "",
+            "text": [
+                ""
+            ],
+            "code": [
+
+            ],
+            "comment":
+                ""
+        }
+    ]
+}

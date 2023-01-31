@@ -1,0 +1,26 @@
+{
+	"name": "ScriptedCharacter",
+	"lua_class_name": "Character",
+	"summary": "",
+	"description": [ "" ], 
+	"variable_text": "scripted_character",
+	"subdirectory": "entity",
+	"superclass": "Entity",
+	"conditionals":
+	[
+		"constructor_team_rank",
+		"from",
+		"from_package",
+		"get_target",
+		"card_action_event",
+		"get_rank",
+		"set_explosion_behavior",
+		"update_func",
+		"delete_func",
+		"on_spawn_func",
+		"battle_start_func",
+		"battle_end_func",
+		"can_move_to_func",
+		"on_countered"
+	]
+}

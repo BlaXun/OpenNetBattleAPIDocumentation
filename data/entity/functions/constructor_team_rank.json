@@ -1,0 +1,23 @@
+{
+	"version": "2.0",
+	"name": "new",
+	"example_code": [ 
+		"local <%= variable_text %> = Battle.<%= lua_class_name %>.new( Team.Red, Rank.V1 )"
+	],
+    "summary": "",
+    "description": [
+		"Creates a new <%= doc_class_name %> object."
+	],
+	"parameters": [
+		{
+			"name": "team",
+			"desc": "",
+			"type": "<%= type 'Team'%>"
+		},
+		{
+			"name": "rank",
+			"desc": "",
+			"type": "<%= type 'Rank' %>"
+		}
+	]
+}

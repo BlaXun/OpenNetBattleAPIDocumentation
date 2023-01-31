@@ -1,0 +1,41 @@
+{
+    "version": "2.0",
+    "name": "add_step",
+    "static": false,
+    "example_code": [
+        ""
+    ],
+    "example_comment":
+        "",
+    "summary": "",
+    "description":
+    [
+        "Adds another <%= type 'CardActionStep' %> in the sequence that this <%= type 'CardAction' %> will play.",
+        "The individual <%= type 'CardActionStep' %>s are executed in the order they were added."
+    ],
+    "parameters":
+    [
+        {
+            "name": "next_step",
+            "desc": "",
+            "type": "<%= type 'CardActionStep' %>",
+            "optional": false
+        }
+    ],
+    "return_value_type": "",
+    "return_value_desc": "",
+    "footnotes":
+    [
+        {
+            "type": "",
+            "text": [
+                ""
+            ],
+            "code": [
+
+            ],
+            "comment":
+                ""
+        }
+    ]
+}

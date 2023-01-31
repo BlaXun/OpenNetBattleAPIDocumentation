@@ -1,0 +1,21 @@
+{
+    "version": "2.0",
+    "name": "AudioPriority",
+    "summary": "",
+    "description": [ "" ],
+    "items":
+    [
+        {
+            "name": "Lowest"
+        },
+        {
+            "name": "Low"
+        },
+        {
+            "name": "High"
+        },
+        {
+            "name": "Highest"
+        }
+    ] 
+}

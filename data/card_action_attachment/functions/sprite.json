@@ -1,0 +1,32 @@
+{
+    "version": "2.0",
+    "name": "sprite",
+    "static": false,
+    "example_code": [
+        ""
+    ],
+    "example_comment":
+        "",
+    "summary": "",
+    "description":
+    [
+        ""
+    ],
+    "parameters": [ ],
+    "return_value_type": "<%= type 'SpriteNode' %>",
+    "return_value_desc": "The <%= type 'SpriteNode' %> associated with this <%= type 'CardActionAttachment' %>.",
+    "footnotes":
+    [
+        {
+            "type": "",
+            "text": [
+                ""
+            ],
+            "code": [
+
+            ],
+            "comment":
+                ""
+        }
+    ]
+}

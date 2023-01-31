@@ -1,0 +1,15 @@
+
+{
+	"version": "2.0",
+	"name": "get_state",
+	"example_code": [ 
+        "" 
+    ],
+	"example_comment": "",
+    "summary": "",
+    "description": [ 
+        "" 
+    ],
+    "return_value_type": "string",
+    "return_value_desc": "The name of the animation this object is currently playing."
+}

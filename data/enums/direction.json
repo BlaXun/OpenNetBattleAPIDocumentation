@@ -1,0 +1,26 @@
+{
+    "version": "2.0",
+    "name": "Direction",
+    "summary": "",
+    "description": [ "" ],
+    "subdirectory": "direction",
+    "items":
+    [
+        { "name": "None" },
+        { "name": "Up" },
+        { "name": "Down" },
+        { "name": "Left" },
+        { "name": "Right" },
+        { "name": "UpLeft" },
+        { "name": "UpRight" },
+        { "name": "DownLeft" },
+        { "name": "DownRight" }
+    ],
+    "functions":
+    [
+        { "name": "flip_x" },
+        { "name": "flip_y" },
+        { "name": "reverse" },
+        { "name": "join" }
+    ]
+}

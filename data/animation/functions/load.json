@@ -1,0 +1,20 @@
+
+{
+	"version": "2.0",
+	"name": "load",
+	"example_code": [ 
+        "" 
+    ],
+	"example_comment": "",
+    "summary": "",
+    "description": [ 
+        "Loads a specified `.animation` file into the <%= type 'Animation' %> object." 
+    ],
+	"parameters": [
+		{
+			"name": "file_path",
+			"desc": "",
+			"type": "string"
+		}
+	]
+}

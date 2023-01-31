@@ -1,0 +1,30 @@
+{
+    "version": "2.0",
+    "name": "direction",
+    "static": false,
+    "example_code": [
+        ""
+    ],
+    "example_comment":
+        "",
+    "summary": "",
+    "description":
+    [
+        "The `Direction` an <%= type 'Entity' %> will be moved."
+    ],
+    "object_type": "<%= type 'Direction' %>",
+    "footnotes":
+    [
+        {
+            "type": "",
+            "text": [
+                ""
+            ],
+            "code": [
+
+            ],
+            "comment":
+                ""
+        }
+    ]
+}

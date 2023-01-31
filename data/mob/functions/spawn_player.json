@@ -1,0 +1,52 @@
+{
+    "version": "2.0",
+    "name": "spawn_player",
+    "static": false,
+    "example_code": [
+        ""
+    ],
+    "example_comment":
+        "",
+    "summary": "",
+    "description":
+    [
+        "Sets the spawn point for <%= type 'Player' %> #`player_id` to the specified <%= type 'Tile' %>."
+    ],
+    "parameters":
+    [
+        {
+            "name": "player_id",
+            "desc": "",
+            "type": "number",
+            "optional": false
+        },
+        {
+            "name": "tile_x",
+            "desc": "",
+            "type": "number",
+            "optional": false
+        },
+        {
+            "name": "tile_y",
+            "desc": "",
+            "type": "number",
+            "optional": false
+        }
+    ],
+    "return_value_type": "",
+    "return_value_desc": "",
+    "footnotes":
+    [
+        {
+            "type": "",
+            "text": [
+                ""
+            ],
+            "code": [
+
+            ],
+            "comment":
+                ""
+        }
+    ]
+}

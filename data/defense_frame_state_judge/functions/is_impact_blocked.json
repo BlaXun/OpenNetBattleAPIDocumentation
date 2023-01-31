@@ -1,0 +1,33 @@
+{
+    "version": "2.0",
+    "name": "is_impact_blocked",
+    "static": false,
+    "example_code": [
+        ""
+    ],
+    "example_comment":
+        "",
+    "summary": "",
+    "description":
+    [
+        "Returns `true` if contact was blocked by this <%= type 'DefenseRule' %>, or by one of higher priority.",
+        "&nbsp;&nbsp;<i>Otherwise, returns `false`.</i>"
+    ],
+    "parameters": [],
+    "return_value_type": "boolean",
+    "return_value_desc": "",
+    "footnotes":
+    [
+        {
+            "type": "",
+            "text": [
+                ""
+            ],
+            "code": [
+
+            ],
+            "comment":
+                ""
+        }
+    ]
+}

@@ -1,0 +1,102 @@
+{
+    "version": "2.0",
+    "name": "TileState",
+    "summary": "",
+    "description": [ "" ],
+    "items":
+    [
+        {
+            "name":     "Normal",
+            "meaning":  [ 
+                "No special effects."
+            ]
+        },
+        {
+            "name":     "Cracked",
+            "meaning":  [ 
+                "Turns into a `Broken` tile when an <%= type 'Entity' %> moves off of it."
+            ]
+        },
+        {
+            "name":     "Broken",
+            "meaning":  [ 
+                "Empty space, cannot be stood on normally.",
+                "&emsp;_It will automatically revert to a `Normal` <%= type 'Tile' %> after a period of time._"
+            ]
+        },
+        {
+            "name":     "Empty",
+            "meaning":  [ 
+                "Entirely removed, and cannot be stood on normally.",
+                "&emsp;_It will **not** automatically revert to a `Normal` <%= type 'Tile' %>._"
+            ]
+        },
+        {
+            "name":     "Grass",
+            "meaning":  [ 
+                "This <%= type 'Tile' %> has grass growing on it."
+            ]
+        },
+        {
+            "name":     "Holy",
+            "meaning":  [ 
+                "Reduces the damage that any <%= type 'Entity' %> takes while standing on it."
+            ]
+        },
+        {
+            "name":     "Ice",
+            "meaning":  [ 
+                "Causes any <%= type 'Entity' %> that walks onto it to slip, and try to move again in the same direction."
+            ]
+        },
+        {
+            "name":     "Lava",
+            "meaning":  [ 
+                "Damages any <%= type 'Entity' %> that stands on it, then reverts to a `Normal` <%= type 'Tile' %>."
+            ]
+        },
+        {
+            "name":     "Poison",
+            "meaning":  [ 
+                "Gradually damages any <%= type 'Entity' %> that stands on it."
+            ]
+        },
+        {
+            "name":     "Volcano",
+            "meaning":  [ 
+                "<img src=\"https://i.imgur.com/6NfmQ.jpeg\">"
+            ]
+        },
+        {
+            "name":     "DirectionDown",
+            "meaning":  [ 
+                "Aconveyor belt that will try to move any <%= type 'Entity' %> that stands on it downwards."
+            ]
+        },
+        {
+            "name":     "DirectionUp",
+            "meaning":  [ 
+                "A conveyor belt that will try to move any <%= type 'Entity' %> that stands on it upwards."
+            ]
+        },
+        {
+            "name":     "DirectionLeft",
+            "meaning":  [ 
+                "A conveyor belt that will try to move any <%= type 'Entity' %> that stands on it to the left."
+            ]
+        },
+        {
+            "name":     "DirectionRight",
+            "meaning":  [ 
+                "A conveyor belt that will try to move any <%= type 'Entity' %> that stands on it to the right."
+            ]
+        },
+        {
+            "name":     "Hidden",
+            "meaning":  [ 
+                "Entirely removed, and cannot be stood on normally.",
+                "&emsp;_It will **not** automatically revert to a `Normal` <%= type 'Tile' %>._"
+            ]
+        }
+    ] 
+}
